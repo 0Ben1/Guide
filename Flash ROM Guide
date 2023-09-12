@@ -1,0 +1,54 @@
+Nov 6, 2022
+
+#1
+
+Hi. I wanted to share with you this guide so you can flash newer Retrofit Dynamic Partitions on Redmi 7A/8A/8 devices.
+These kind of ROM's can be found on SDM Mi439 Telegram group as well. Here are the instructions.
+You will also need to use newer recoveries. For flashing Android 12+ rom I recommend official TWRP 3.7.0 for Mi439.
+
+Download TWRP 3.7.0 here: CLICK ME!
+Download OrangeFox here: CLICK ME!
+(Note for OrangeFox: Use A11 version for Android 11 Roms, and A12 version for Android 12 and 13)
+
+Instruction to flash newer ROMs with Retrofit Dynamic Partitions:
+
+(Please Ignore recovery errors at the first installation, because every system partitions are blank at the moment)
+(If you proceed with using old unsupported recoveries, You'll surely ending up getting errors)
+
+First time installation of Retrofit Dynamic Partitions ROMs:
+1. Flash recovery with Retrofit Dynamic Partitions support (Download Here)
+2. Enter the newly flashed recovery
+3. Flash Retrofit Dynamic Partitions Converter (Download Here)
+4. Wipe metadata partition
+5. Flash the ROM
+6. Factory Reset (Format data is recommended) if you're coming from a different ROM
+7. Reboot and Enjoy
+
+NOTE: If you can't flash ROM, try unticking "Unmount system before installing a ZIP" in settings of TWRP/OFOX.
+
+Update ROM from Standard Partitions to Retrofit Dynamic Partitions:
+Follow ￼ without Factory Reset step
+
+Update ROM from Retrofit Dynamic Partitions to Retrofit Dynamic Partitions:
+1. Enter recovery
+2. Flash the update
+3. Reboot and Enjoy
+
+Switch to another Retrofit Dynamic Partitions ROM:
+1. Enter recovery
+2. Flash the ROM
+3. Factory Reset (Format data is recommended)
+4. Reboot and Enjoy
+
+Revert back to standard partition ROM:
+1. Enter recovery
+2. Untick "Settings > Unmount System before installing a ZIP"
+3. Do "Advanced > Unmap Super Devices"
+4. Flash the ROM
+5. Factory Reset (Format data is recommended)
+6. Reboot and Enjoy
+
+Warning! You can't flash static partition ROM on dynamic partitions and vice versa!
+
+All ROMs that I post here are RDP (Retrofit Dynamic Partitions)!
+
